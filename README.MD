@@ -25,6 +25,19 @@ This contract was **run and tested locally** and was not deployed to a public te
 cargo build
 ```
 
+### Local Test
+
+```bash
+cargo test
+```
+
+### Example
+```bash
+cargo run --example schema
+```
+### Output:
+
+
 ## 🧪 Local Execution
 
 All important state transitions were tested locally using Rust unit tests that simulate real transaction flows.
