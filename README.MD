@@ -41,6 +41,8 @@ cargo run --example schema
 
 (images\output.png)
 
+---
+
 ## 🧪 Local Execution
 
 All important state transitions were tested locally using Rust unit tests that simulate real transaction flows.
