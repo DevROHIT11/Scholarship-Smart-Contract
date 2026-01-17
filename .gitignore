@@ -1,0 +1,10 @@
+# ===== Rust / Cargo =====
+target/
+Cargo.lock
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+
+# ===== Logs =====
+*.log
