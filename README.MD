@@ -32,11 +32,14 @@ cargo test
 ```
 
 ### Example
+
 ```bash
 cargo run --example schema
 ```
+
 ### Output:
 
+(images\output.png)
 
 ## 🧪 Local Execution
 
