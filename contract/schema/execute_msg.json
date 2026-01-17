@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ExecuteMsg",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": [
+        "RegisterStudent"
+      ],
+      "properties": {
+        "RegisterStudent": {
+          "type": "object",
+          "required": [
+            "address"
+          ],
+          "properties": {
+            "address": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "ApproveStudent"
+      ],
+      "properties": {
+        "ApproveStudent": {
+          "type": "object",
+          "required": [
+            "address"
+          ],
+          "properties": {
+            "address": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "required": [
+        "ClaimScholarship"
+      ],
+      "properties": {
+        "ClaimScholarship": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    }
+  ]
+}
