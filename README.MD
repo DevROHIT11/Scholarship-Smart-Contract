@@ -89,3 +89,12 @@ The contract follows a straightforward flow that mirrors how scholarship program
 - The final contract state is deterministic and easy to verify.
 
 ---
+
+## 🔐 Security Checks Implemented
+
+- **Authority-only access:** Only the authorized account can create the pool, register students, and distribute funds.
+- **Access control enforcement:** All critical actions are protected against unauthorized calls.
+- **Duplicate prevention:** Students cannot be registered more than once.
+- **One-time claims:** Each student can receive the scholarship only once, preventing double payouts.
+- **Balance validation:** Funds are distributed only if the scholarship pool has sufficient balance.
+- **Explicit error handling:** All invalid actions return clear errors using `Result`, ensuring predictable behavior.
